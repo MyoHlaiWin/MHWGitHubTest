@@ -11,5 +11,10 @@ public class MainController {
 	public String Hello() {
 		return new Gson().toJson("Hello, .....");
 	}
+	
+	@GetMapping("/hi")
+	public String Hi() {
+		return new Gson().toJson("Hi, .....");
+	}
 
 }
